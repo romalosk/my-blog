@@ -1,93 +1,79 @@
 body {
+    margin: 0;
     font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+* {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 300;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1180px;
     padding: 0 20px;
 }
 
-.header__brand {
+.title {
     font-weight: bold;
-    font-size: 48px;
     text-transform: uppercase;
-}
-
-h1 {
-    font-size: 53px;
-    margin: 0;
-    padding: 24 0 16 0;
-    width: 177px;
-}
-
-.header__link {
-    font-size: 40px;
-    margin: 0;
-    width: 93px;
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-h3 {
-    font-size: 40px;
-    margin: 0;
-    font-weight: normal;
-}
-
-.info-block {
-    width: 1920px;
-    height: 308px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url('./statics/image/back.png');
-}
-
-.info-block__title {
-    padding-top: 50px;
-    font-weight: bold;
-    font-size: 48px;
+    margin-bottom: 22px;
     color: #fff;
 }
+.title_center {
+    text-align: center;
+}
 
+.header__content {
+    padding: 24px 0 48px 0;
+}
+.header__brand {
+    margin-bottom: 16px;
+    position:relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header__link {
+    font-size: 36px;
+    line-height: 54px;
+}
+.header__link, .header__link:hover {
+    color:#000;
+}
+.header__link_italic {
+    font-style: italic;
+}
+
+.info-block{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./statics/image/back.png') no-repeat center / cover;
+}
+.info-block__content {
+    padding: 50px 0;
+}
 .info-block__text {
-    padding-top: 22px;
-    font-weight: 300px;
-    font-size: 48px;
+    margin: 0;
     color: #fff;
 }
 
 .contacts {
-    width: 1920px;
-    height: 323px;
-    background: #23374F;
+    background: #23374F;  
 }
-
-.contacts__title {
-    padding: 29 0 21 0;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
-    color: #fff;
+.contacts__content {
+    padding: 33px 0 31px 0;
 }
-
-.contacts_text-two {
-    font-weight: 300px;
-    font-size: 48px;
+.contacts__wrapper-link {
     text-align: center;
+}
+.contacts__link, .contacts__link:hover {
     color: #fff;
-    
 }
 
 .footer {
-    width: 1920px;
-    height: 107px;
     background: #45B7E3;
 }
-
-.footer_text-one {
-    padding-top: 23px;
-    font-weight: 300px;
-    font-size: 48px;
+.footer__copyright-text {
     text-align: right;
+    padding: 18px 0 17px 0;
     color: #fff;
 }
