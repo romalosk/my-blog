@@ -1,0 +1,29 @@
+* {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 300;
+}
+
+
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  color: #fff;
+}
+.title_center {
+  text-align: center;
+}
+.contacts {
+  background: #23374F;  
+}
+.contacts__content {
+  padding: 33px 0 31px 0;
+}
+.contacts__wrapper-link {
+  text-align: center;
+}
+.contacts__link, .contacts__link:hover {
+  color: #fff;
+}
