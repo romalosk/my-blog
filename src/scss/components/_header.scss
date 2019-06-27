@@ -1,5 +1,6 @@
 .header__content {
   padding: 24px 0 48px 0;
+  align-items: center;
 }
 .header__brand {
   margin-bottom: 16px;
@@ -11,7 +12,4 @@
 }
 .header__link, .header__link:hover {
   color:#000;
-}
-.header__link_italic {
-  font-style: italic;
 }
