@@ -1,16 +1,20 @@
 .header__content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.header__brand {
+.header__brand img {
+  width: 115px;
+  height: 47.57px;
   margin: 27px 0 27px 0;
 }
 .header__links {
-  justify-content: flex-end;
+  display: flex;
 }
 .header__link {
-  font-size: 36px;
+  font-size: 16px;
   line-height: 54px;
+  margin-left :12px;
 }
 .header__link, .header__link:hover {
   color:#000;
