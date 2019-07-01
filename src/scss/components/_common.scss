@@ -14,14 +14,36 @@ body {
 
 .info-block__content {
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 .info-block__title {
+  color: #fff;
   font-size: 55px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 50px 0 40px 0;
 }
 
+.info-block__ava img {
+  margin: 0 20px 70px 0;
+  width: 280px;
+  height: 265px;
+}
+
 .info-block__text {
-  margin: 0;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.info-block__button {
+  display: flex;
+  position: absolute;
+  width: 127px;
+  height: 44px;
+  color: black;
+  background-color: #ffe01b;
+  font-size: 24px;
+  align-items: center;
+  text-transform: uppercase;
 }
