@@ -67,6 +67,8 @@ function watch() {
   gulp.watch('./src/js/*.js', js)
   //Следить за Img файлами
   gulp.watch('./src/image/*', img)
+  //Следить за Fonts файлами
+  gulp.watch('./src/fonts/*', fonts)
   //При изменении HTML запустить синхронизацию
   gulp.watch([
     "./src/html/components/*.html",
