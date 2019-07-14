@@ -6,8 +6,6 @@
     <title>Мой личный блог</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="./img/icon.png" type="image/png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=cyrillic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
   </head>
   <body>
   @@include('./../components/header.html')
@@ -30,6 +28,14 @@
 
   <div class="blog">
     <div class="container">
+      <div class="blog__content">
+        <div class="blog__title">Мой блог</div>
+        <div class="blog__news-cards">
+          @@include('./../components/news-card.html')
+          @@include('./../components/news-card.html')
+          @@include('./../components/news-card.html')
+        </div>
+      </div>
 
     </div>
   </div>
