@@ -2,15 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');
 // Bebas Neue
 @import url('http://allfont.ru/allfont.css?fonts=bebas-neue');
+//Open Sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+// Montserrat
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap&subset=cyrillic-ext,latin-ext');
 // Reboot
 @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css');
 
-body {
-  font-family: 'Open Sans Condensed', sans-serif !important;
-  color: #000;
-  font-size: 20px;
-  line-height: 27px;
-}
+// body {
+//   font-family: 'Open Sans Condensed', sans-serif !important;
+//   color: #000;
+//   font-size: 20px;
+//   line-height: 27px;
+// }
 
 .container {
   margin: 0 auto;
