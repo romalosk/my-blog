@@ -54,13 +54,13 @@
   &__bone img {
     position: absolute;
     margin: 12px 0 0 807px;
-    width: 296px;
+    // width: 296px;
     height: 567px;
     z-index: 1;
   }
   &__boneback img {
     position: absolute;
-    margin: 0 0 0 720px;
+    margin: 52px 0 0 720px;
     width: 560px;
     height: 504px;
   }
@@ -98,5 +98,11 @@
     text-transform: uppercase;
     line-height: 22px;
     color: #fff;
+  }
+  &__sprites {
+    width: 30px;
+    height: 30px;
+    background-image: url("./img/sprite.png");
+    background-position: 300px -68px;
   }
 }
