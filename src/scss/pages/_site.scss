@@ -50,6 +50,22 @@
   margin: 75px 0 0 185px;
 }
 
+.picture {
+  &__bone img {
+    position: absolute;
+    margin: 12px 0 0 807px;
+    width: 296px;
+    height: 567px;
+    z-index: 1;
+  }
+  &__boneback img {
+    position: absolute;
+    margin: 0 0 0 720px;
+    width: 560px;
+    height: 504px;
+  }
+}
+
 .main {
   &__title {
     font-family: 'Monteserrat', sans-serif;
@@ -81,5 +97,6 @@
     font-size: 16px;
     text-transform: uppercase;
     line-height: 22px;
+    color: #fff;
   }
 }
