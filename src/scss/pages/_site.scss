@@ -100,9 +100,17 @@
     color: #fff;
   }
   &__sprites {
-    width: 30px;
+    width: 120px;
     height: 30px;
     background-image: url("./img/sprite.png");
     background-position: 300px -68px;
+    margin: 108.53px 0 0 99.7px;
+  }
+}
+
+.massage {
+  &__girl {
+    width: 540px;
+    height: 440px;
   }
 }
