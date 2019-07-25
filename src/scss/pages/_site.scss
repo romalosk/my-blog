@@ -23,6 +23,7 @@ body {
   }
   &__link {
     margin-right: 27px;
+    color: #3A4959;
   }
   &__contact {
     font-size: 16px;
@@ -60,7 +61,7 @@ body {
     position: absolute;
     margin: 15px 0 0 687px;
     // width: 296px;
-    height: 567px;
+    // height: 567px;
     z-index: 1;
   }
   &__boneback img {
@@ -73,13 +74,13 @@ body {
 
 .main {
   &__title {
-    font-family: 'Monteserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 58px;
     line-height: 67px;
     letter-spacing: 1px;
     color: #3A4959;
-    width: 480px;
+    width: 420px;
     margin: 30px 0 0 100px;
   }
   &__discription {
@@ -104,12 +105,33 @@ body {
     line-height: 22px;
     color: #fff;
   }
-  &__sprites {
-    width: 120px;
+  &__sprites-p {
+    width: 30px;
     height: 30px;
     background-image: url("./img/sprite.png");
     background-position: 300px -68px;
-    margin: 108.53px 0 0 99.7px;
+    margin: 108.53px 0 0 100px;
+  }
+  &__sprites-i {
+    width: 30px;
+    height: 30px;
+    background-image: url("./img/sprite.png");
+    background-position: 270px -68px;
+    margin: 108.53px 0 0 40px;
+  }
+  &__sprites-t {
+    width: 30px;
+    height: 30px;
+    background-image: url("./img/sprite.png");
+    background-position: 240px -68px;
+    margin: 108.53px 0 0 40px;
+  }
+  &__sprites-f {
+    width: 30px;
+    height: 30px;
+    background-image: url("./img/sprite.png");
+    background-position: 210px -68px;
+    margin: 108.53px 0 0 40px;
   }
 }
 
